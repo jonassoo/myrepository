@@ -5,7 +5,7 @@ let solvedBonus = 0;
 const toSolve = 17;
 const toSolveBonus = 9;
 
-try 
+try {
 
   (function Demo() {
     // Use let (or const) instead of var to make the function succeed.
