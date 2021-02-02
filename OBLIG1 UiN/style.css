@@ -4,13 +4,16 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: auto auto;
-    grid-template-areas: "nav nav nav"
+    grid-template-areas: "header header header"
                         "... main ..."
 }
 
-nav {
-    grid-area: nav;
+header {
+    grid-area: header;
     box-shadow: 0px 10px 10px #00000019;
+}
+
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
