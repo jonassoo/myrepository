@@ -1,3 +1,8 @@
-const Movie = (title, actor) => {};
-
-export default Movie;
+const Movie = ({ title, actor }) => (
+    <li>
+      <p>{title}</p>
+      <p>{actor}</p>
+    </li>
+  );
+  
+  export default Movie;

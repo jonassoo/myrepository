@@ -1,6 +1,7 @@
 import client from './client';
 
 const movieFields = `
+    _id,
     title,
     'actor': actor->title,
 `;
