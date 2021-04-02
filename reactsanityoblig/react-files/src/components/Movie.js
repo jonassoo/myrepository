@@ -5,4 +5,4 @@ const Movie = ({ title, actor }) => (
     </li>
   );
   
-  export default Movie;
+  export default Movie; 
